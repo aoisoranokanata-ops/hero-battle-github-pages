@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Keep upstream OCR assets byte-identical to their manifest.
+vendor/ocr/* -text -whitespace
